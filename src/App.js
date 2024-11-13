@@ -5,10 +5,12 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Choose from './components/choose/choose';
 import WebTrader from './components/webTrader/webTrader';
 import MyProfile from './components/myProfile/myProfile';
+import Sidebar from './components/sidebar/sidebar';
 
 function App() {
   return (
     <Router>
+      <Sidebar/>
       <div>
         <Routes>
           <Route path="/" element={<Choose />} />
