@@ -3,7 +3,7 @@ import styles from './sidebar.module.css'
 import Darkmode from "../../reusable/darkmode/darkmode";
 import Logout from '../../assets/logout.svg'
 import ChangeLanguage from "../../reusable/changeLanguage/changeLanguage";
-import Logo from '../../assets/WebTrader.svg'
+import Logo from '../../assets/logo1.svg'
 
 function Sidebar() {
   return (

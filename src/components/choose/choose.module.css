@@ -32,6 +32,8 @@
 }
 .button img {
     width: 30%;
+    position: relative;
+    bottom: 10%;
 }
 tr {
     width: 2px;
@@ -40,6 +42,7 @@ tr {
 }
 .button:hover {
     transform: scale(1.05);
+    box-shadow: 0 0 10px 1px #0fbc85;
 }
 a {
     text-decoration: none;

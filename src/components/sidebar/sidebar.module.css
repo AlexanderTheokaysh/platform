@@ -13,7 +13,7 @@
 }
 .navbarItems {
     position: relative;
-    right: 5%;
+    right: 2%;
     display: flex;
     width: 25%;
     justify-content: space-evenly;
@@ -30,7 +30,8 @@
     color: white;
     border-radius: 20px;
     font-size: 0.9vw;
-    height: 4vh;
+    height: 4.5vh;
+    width: 23%;
 }
 .changeLanguage {
     background: none;
