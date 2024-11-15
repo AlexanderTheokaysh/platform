@@ -41,7 +41,7 @@ const ChangeLanguage = () => {
         <div className="language-selector" ref={dropdownRef}>
             <CurrencyFlag
                 style={{
-                    border: 'none',
+                    border: '2px solid #0FBC84',
                     width: '28px',
                     height: '28px'
                 }}

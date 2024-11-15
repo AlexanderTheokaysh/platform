@@ -4,6 +4,7 @@ import Darkmode from "../../reusable/darkmode/darkmode";
 import Logout from '../../assets/logout.svg'
 import ChangeLanguage from "../../reusable/changeLanguage/changeLanguage";
 import Logo from '../../assets/logo1.svg'
+import ProfileIcon from '../../assets/profileIcon2.svg'
 
 function Sidebar() {
   return (
@@ -14,8 +15,8 @@ function Sidebar() {
         <div className={styles.navbarItems}>
             <Darkmode/>
             <ChangeLanguage/>
-            <button className={styles.profileButton}>My profile</button>
-            <img src={Logout} />
+            <img src={ProfileIcon} className={styles.profileButton}/>
+            <img src={Logout} className={styles.logout} />
         </div>
     </div>
   );
